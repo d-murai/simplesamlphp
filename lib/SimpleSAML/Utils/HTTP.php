@@ -1167,7 +1167,7 @@ class HTTP
             'lifetime' => 0,
             'expire'   => null,
             'path'     => '/',
-            'domain'   => null,
+            'domain'   => version_compare(PHP_VERSION, '7.3.0', '>=') ? null : '',
             'secure'   => false,
             'httponly' => true,
             'raw'      => false,
