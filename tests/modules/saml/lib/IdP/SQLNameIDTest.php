@@ -1,13 +1,13 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Test for the SQLNameID helper class.
  *
  * @author Pavel Brousek <brousek@ics.muni.cz>
  * @package SimpleSAMLphp
  */
+
+declare(strict_types=1);
 
 namespace SimpleSAML\Test\Module\saml\IdP;
 

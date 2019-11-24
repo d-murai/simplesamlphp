@@ -1,13 +1,13 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * A SAML error indicating that none of the requested IdPs can be used.
  *
  * @author Jaime Pérez Crespo, UNINETT AS <jaime.perez@uninett.no>
  * @package SimpleSAMLphp
  */
+
+declare(strict_types=1);
 
 namespace SimpleSAML\Module\saml\Error;
 

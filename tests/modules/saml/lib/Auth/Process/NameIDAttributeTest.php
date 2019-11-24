@@ -1,13 +1,13 @@
 <?php
 
-declare(strict_types=1);
-
 /**
  * Test for the saml:NameIDAttribute filter.
  *
  * @author Eugene Venter <eugene@catalyst.net.nz>
  * @package SimpleSAMLphp
  */
+
+declare(strict_types=1);
 
 namespace SimpleSAML\Test\Module\saml\Auth\Process;
 
